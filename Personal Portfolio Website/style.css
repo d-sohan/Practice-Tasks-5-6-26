@@ -1,0 +1,39 @@
+body {
+    padding-top: 70px;
+}
+
+.home-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    color: white;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-card {
+    text-align: center;
+}
+
+.progress {
+    height: 25px;
+}
